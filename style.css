@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    object-fit: contain;
+}
+.container{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+    margin: 20px;
+    display: flex;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+    
+}
+.left_nav{
+    width: 450px;
+    max-height: 100%;
+    background: #002266;
+    color: white;
+}
+.top_content{
+    line-height: 40px;
+    padding: 10px;
+}
+.personal_info h2,.skills h2,.links h2,.hobby h2{
+    font-size: 20px;
+    background: rgba(36, 35, 35, 0.568);
+    width: 100%;
+    padding: 10px;
+}
+.personal_info .address,.personal_info .phone,.personal_info .mail,.personal_info .linkedin{
+    padding: 5px 45px;
+    line-height: 25px;
+}
+.skill_content,.link_content,.hobby_content{
+    padding: 10px;
+    line-height: 25px;
+}
+.skill_content ul li{
+    font-weight: bold;
+}
+.body_content{
+    padding: 20px;
+}
+.carrer_obj h2,.education h2,.experience h2,.achive h2{
+    width: 100%;
+    padding:10px 0;
+    border-top: 1px solid rgb(190, 189, 189);
+    border-bottom:1px solid rgb(190, 189, 189);
+}
+.carrer_content,.education_content,.experience_content,.achive_content{
+    padding: 20px 50px;
+    font-size: 16px;
+}
+.education{
+    margin-top: 10px;
+}
+.education_content ul li{
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.education_content span,.experience_content span,.achive_content span{
+    font-weight: bold;
+}
+.education_content ul,.experience_content ul,.achive_content ul{
+    margin-top: 10px;
+}
+.experience_content ul li{
+    list-style-type: none;
+    line-height: 25px;
+}
+.achive_content ul li{
+    line-height: 25px;
+}
